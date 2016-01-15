@@ -1,0 +1,20 @@
+{
+  "name": "awesome-project",
+  "version": "0.0.1",
+  "description": "Awesome project description",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter nyan --compilers js:babel/register --recursive tests/*Test.js"
+  },
+  "author": "jasir <sirjarda2@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.25",
+    "babel-eslint": "^4.1.0"
+  }
+}
